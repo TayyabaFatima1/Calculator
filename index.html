@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+     <div class="main ">
+        <div class="DateTime" id="DateTime"></div>
+        <div class="width"><input type="text" id="data"></div>
+        <div class="width"><button  onclick="clearValue()">AC</button><button onclick="deleteValue()">DE</i></button></div>
+     <div class="btn">
+     <button onclick="getNumber(this)">7</button>
+     <button onclick="getNumber(this)">8</button>
+     <button onclick="getNumber(this)">9</button>
+     <button onclick="getNumber(this)">*</button>
+    </div>
+    <div class="btn">
+        <button onclick="getNumber(this)">4</button>
+        <button onclick="getNumber(this)">5</button>
+        <button onclick="getNumber(this)">6</button>
+        <button onclick="getNumber(this)">-</button>
+       </div>
+       <div class="btn">
+        <button onclick="getNumber(this)">1</button>
+        <button onclick="getNumber(this)">2</button>
+        <button onclick="getNumber(this)">3</button>
+        <button onclick="getNumber(this)">+</button>
+       </div>
+       <div class="btn">
+        <button onclick="getNumber(this)">0</button>
+        <button onclick="getNumber(this)">.</button>
+        <button onclick="getNumber(this)">/</button>
+        <button onclick="getResult()">=</button>
+       </div>
+     </div>
+   
+    <script src="app.js"></script>
+</body>
+</html>
